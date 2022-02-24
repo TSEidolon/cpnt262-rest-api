@@ -4,6 +4,7 @@
 Troubleshooting:
 1. Had trouble referencing a URL for the API since it did not have an object with its own url to it.
   - I went to the <a href="https://gadhagod.github.io/Hyrule-Compendium-API/#/" target="_blank"> Hyrule compendium API</a> website and realized that there was a way to display certain data by their ID numbers.
+  - Used the api URL concatenated with the random number from the `randomAPI` function (lines 3 to 5 in "app.js")
 ```
  <a href="https://botw-compendium.herokuapp.com/api/v2/entry/${monsterData.id}" target="_blank">Raw Data</a>
 
