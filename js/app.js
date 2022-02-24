@@ -26,6 +26,7 @@ const submitBTN = document.querySelector ('.submitBTN')
     console.log (data.data.monsters);
 
     const monsterData = data.data.monsters[randomAPI(data.data.monsters.length)];
+    console.log ('Collecting monster data....');
     console.log (monsterData);
 
 
